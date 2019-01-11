@@ -20,17 +20,15 @@
                 <th>Nom</th>
                 <th>Sexe</th>
                 <th>Race</th>
-                <th>Modifier</th>
-                <th>Supprimer</th>
+                <th>Retirer</th>
             </tr>
         <?php
         foreach($rowAll as $row){
         ?>
             <tr>
-                <td><?php echo $row['nomCourant']; ?></td>
+                <td><?php echo '<a href="../equigest/index.php?action=cheval&id='.$row['id'].'">'.$row['nomCourant'].'</a>'; ?></td>
                 <td><?php echo $row['sexe']; ?></td>
                 <td><?php echo $row['race']; ?></td>
-                <td><a href="../equigest/index.php?action=modifier-cheval&id=<?php echo $row['id']; ?>">Modifier</a></td>
                 <td><a href="../equigest/index.php?action=retirer-cheval&id=<?php echo $row['id']; ?>">Retirer</a></td>
             </tr>
         <?php

@@ -12,6 +12,7 @@ $listeDesActions = array(
     "ajout-cheval" => "vues/ajoutCheval.php",
     "retirer-cheval" => "vues/retirerCheval.php",
     "modifier-cheval" => "vues/modifierCheval.php",
+    "cheval" => "vues/cheval.php",
     "entree-stock" => "vues/entreeStock.php",
     "marechalerie" => "vues/marechalerie.php",
     "urgence-veto" => "vues/urgenceVeto.php",

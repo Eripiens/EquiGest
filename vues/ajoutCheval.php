@@ -1,4 +1,4 @@
-<h1>Ajouter un cheval a l'écurie</h1><br>
+<h1>Ajouter un cheval</h1><br>
 
 <form method="POST" action="../equigest/index.php?action=traitement-ajout">
     <h2>Informations generales</h2><br>
