@@ -17,7 +17,8 @@ $listeDesActions = array(
     "urgence-veto" => "vues/urgenceVeto.php",
     "veterinaire" => "vues/veterinaire.php",
     "traitement-inscription" => "traitement/traitInscription.php",
-    "traitement-connexion" => "traitement/traitConnexion.php"
+    "traitement-connexion" => "traitement/traitConnexion.php",
+    "traitement-ajout" => "traitement/traitAjout.php"
 )
 
 ?>

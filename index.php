@@ -16,8 +16,13 @@ ob_start(); // Je démarre le buffer de sortie : les données à afficher sont s
         <div class="container-fluid">
             <div class="row">
                 <div class="col-3">
-                    <a href="index.php?action=acceuil"><img src="img/logo.png" width="300 px"></a>
-
+                    <center><a href="index.php?action=acceuil"><img src="img/logo.png" width="300 px"></a></center><br><br>
+                    <?php
+                        if (isset($_SESSION['id'])){
+                            echo '<div class="nav"><h3>Navigation</h3><br>';
+                            echo '<a href="index.php?action=gestion-cheptel">Gestion du cheptel</a></div>';
+                        }
+                    ?>
                 </div>
                 <div class="col-6">
                     <?php
