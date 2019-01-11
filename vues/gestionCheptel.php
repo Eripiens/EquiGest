@@ -34,7 +34,7 @@
         <?php
         }
         ?>
-        </table>
-        <?php
+        </table><br>
+<?php
     }
 ?>

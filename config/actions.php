@@ -19,7 +19,10 @@ $listeDesActions = array(
     "veterinaire" => "vues/veterinaire.php",
     "traitement-inscription" => "traitement/traitInscription.php",
     "traitement-connexion" => "traitement/traitConnexion.php",
-    "traitement-ajout" => "traitement/traitAjout.php"
+    "traitement-ajout" => "traitement/traitAjout.php",
+    "profil" => "vues/profil.php",
+    "ajout-ecurie" => "vues/ajoutEcurie.php",
+    "trait-ecurie" => "traitement/traitEcurie.php"
 )
 
 ?>

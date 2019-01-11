@@ -48,7 +48,8 @@ ob_start(); // Je démarre le buffer de sortie : les données à afficher sont s
                     <div id="login">
                     <?php
                         if (isset($_SESSION['id'])) {
-                            echo "Bonjour " . $_SESSION['username'] . " <br><a href='index.php?action=deconnexion'>Deconnexion</a>";
+                            echo "Bonjour " . $_SESSION['username'] . " <br><a href='index.php?action=deconnexion'>Deconnexion</a><br>
+                            <a href='index.php?action=profil&id=".$_SESSION['id']."'>Profil</a>";
                         } else {
                             echo '<a href="index.php?action=connexion">Connexion</a><br>
                             <a href="index.php?action=inscription">Inscription</a>';

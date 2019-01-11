@@ -6,6 +6,10 @@ h1{
     text-align: center
 }
 
+h3{
+    text-align: center
+}
+
 .formulaire{
     padding: 1px 0px 1px 0px;
     border-collapse: separate;
@@ -21,7 +25,6 @@ h1{
 .liste{
     padding: 1px 0px 1px 0px;
     border-collapse: separate;
-    border-spacing: 40px 5px;
     vertical-align: middle;
 }
 
@@ -29,6 +32,14 @@ h1{
     text-align: right;
 }
 
-h3{
+#login{
     text-align: center;
+}
+
+#submit{
+    text-align: center;
+}
+
+.liens{
+    text-align: right
 }
