@@ -30,7 +30,7 @@
                 <td><?php echo $row['sexe']; ?></td>
                 <td><?php echo $row['race']; ?></td>
                 <td><a href="../equigest/index.php?action=retirer-cheval&id=<?php echo $row['id']; ?>">Retirer</a></td>
-            </tr>
+            </th>
         <?php
         }
         ?>

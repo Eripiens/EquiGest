@@ -43,3 +43,7 @@ h3{
 .liens{
     text-align: right
 }
+
+.liste td{
+    min-width: 25%;
+}

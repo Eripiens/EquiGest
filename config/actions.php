@@ -22,7 +22,8 @@ $listeDesActions = array(
     "traitement-ajout" => "traitement/traitAjout.php",
     "profil" => "vues/profil.php",
     "ajout-ecurie" => "vues/ajoutEcurie.php",
-    "trait-ecurie" => "traitement/traitEcurie.php"
+    "trait-ecurie" => "traitement/traitEcurie.php",
+    "trait-modifier" => "traitement/traitModifier.php"
 )
 
 ?>
