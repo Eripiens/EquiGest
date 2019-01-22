@@ -21,7 +21,8 @@ ob_start(); // Je démarre le buffer de sortie : les données à afficher sont s
                     <?php
                         if (isset($_SESSION['id'])){
                             echo '<div class="nav"><h3>Navigation</h3><br>';
-                            echo '<a href="index.php?action=gestion-cheptel">Gestion du cheptel</a></div>';
+                            echo '<a href="index.php?action=gestion-cheptel">Gestion du cheptel</a><br>';
+                            echo '<a href="index.php?action=gestion-stocks">Gestion des stocks</a><br></div>';
                         }
                     ?>
                 </div>
