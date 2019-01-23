@@ -18,6 +18,7 @@
                 <th>Type</th>
                 <th>Poids</th>
                 <th>Prix</th>
+                <th>Paiement</th>
             </tr>
         <?php
         foreach($rowAll as $row){
@@ -27,6 +28,7 @@
                 <td><?php echo $row['type']; ?></td>
                 <td><?php echo $row['poids']; ?> kg</td>
                 <td><?php echo $row['prix']; ?> €</td>
+                <td><a href="index.php?action=trait-paiement&id=<?php echo $row['id']; ?>">Payé ?</a></td>
             </th>
         <?php
         }
